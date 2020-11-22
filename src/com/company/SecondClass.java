@@ -42,5 +42,5 @@ public class SecondClass {
             for(int j = 1; j<=i; j++) newArr[i] = Array[j]+newArr[j-1];
         System.out.println(Arrays.toString(Array)+" -> "+Arrays.toString(newArr));
     }
-
+    //Task 2.5
 }
