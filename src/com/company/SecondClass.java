@@ -43,4 +43,42 @@ public class SecondClass {
         System.out.println(Arrays.toString(Array)+" -> "+Arrays.toString(newArr));
     }
     //Task 2.5
+    public static void getDecimalPlaces(String strnum)
+    {
+        char[] charnum = strnum.toCharArray();
+        for (int i = 0; i < charnum.length; i++)
+        {
+            int afterpoint = 0;
+            if(charnum[i] == '.')
+            {
+                for (int j = i+1; j < charnum.length; j++) afterpoint++;
+                System.out.println("num is "+strnum+", numbers after point - "+afterpoint);
+            }
+        }
+    }
+    //Task 2.6
+    public static void Fibonacci(int num)
+    {
+        int fibnum = 0;
+        for (int i = 0; i<num; i++) fibnum +=i;
+        System.out.println("number is "+num+", fibonacci number is "+fibnum);
+    }
+    //Task 2.7
+    public static void isValid(String strnum)
+    {
+        char[] charnum = strnum.toCharArray();
+        if (charnum.length != 5)
+        {
+            System.out.println("number "+strnum+" is not valid.");
+            return;
+        }
+        for(int i = 0; i<charnum.length; i++)
+        {
+            if ( ( (int)charnum[i] > 57 )||( (int)charnum[i] < 48 ) )
+            {
+                System.out.println("number "+strnum+" is not valid.");
+                return;
+            } else if(i >= charnum.length-1) System.out.println("number "+strnum+" is  valid.");
+        }
+    }
 }

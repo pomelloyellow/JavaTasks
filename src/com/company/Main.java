@@ -38,6 +38,7 @@ public class Main {
 	FirstClass.ctoa('m');
 	FirstClass.ctoa('[');
 	FirstClass.ctoa('\\');
+	FirstClass.ctoa(' ');
 		//Task 1.7
 		System.out.println("----Task 1.7----");
 	FirstClass.addUpTo(3);
@@ -78,5 +79,22 @@ public class Main {
 	SecondClass.cumulativeSum(new int[] {1,2,3});
 	SecondClass.cumulativeSum(new int[] {1, -2, 3});
 	SecondClass.cumulativeSum(new int[] {3, 3, -2, 408, 3, 3});
-    }
+		//Task 2.5
+		System.out.println("----Task 2.5---");
+	SecondClass.getDecimalPlaces("20.43");
+	SecondClass.getDecimalPlaces("0.1504");
+	SecondClass.getDecimalPlaces("7.000");
+		//Task 2.6
+		System.out.println("----Task 2.6---");
+	SecondClass.Fibonacci(3);
+	SecondClass.Fibonacci(7);
+	SecondClass.Fibonacci(12);
+		//Task 2.7
+		System.out.println("----Task 2.7---");
+	SecondClass.isValid("12345");
+	SecondClass.isValid("1234");
+	SecondClass.isValid("123456");
+	SecondClass.isValid("12e56");
+	SecondClass.isValid("1 456");
+	}
 }

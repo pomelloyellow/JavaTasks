@@ -1,22 +1,22 @@
 package com.company;
 
 public class FirstClass {
-    //Task 1
+    //Task 1.1
     public static void remainder(int dividend, int divider) {
         System.out.println(dividend + " Mod " + divider + " = " + dividend % divider);
     }
 
-    //Task 2
+    //Task 1.2
     public static void triArea(int base, int height) {
         System.out.println("Base = " + base + ", height = " + height + ", Area = " + base * height / 2);
     }
 
-    //Task 3
+    //Task 1.3
     public static void animals(int chickens, int cows, int pigs) {
         System.out.println("chickens = " + chickens + ", cows = " + cows + ", pigs = " + pigs + ", foot = " + (chickens * 2 + cows * 4 + pigs * 4));
     }
 
-    //Task 4
+    //Task 1.4
     public static void profitableGamble(double prob, int prize, int pay) {
         boolean tf;
         if (prob * prize > pay) tf = true;
@@ -24,7 +24,7 @@ public class FirstClass {
         System.out.println("prob = " + prob + ", prize = " + prize + ", pay = " + pay + " -> " + tf);
     }
 
-    //Task 5
+    //Task 1.5
     public static void operation(int N, int a, int b) {
         if (a + b == N) System.out.println("N = " + N + ", a = " + a + ", b = " + b + " -> added");
         else if (a - b == N) System.out.println("N = " + N + ", a = " + a + ", b = " + b + " -> subtracted");
@@ -33,23 +33,23 @@ public class FirstClass {
         else System.out.println("N = " + N + ", a = " + a + ", b = " + b + " -> none");
     }
 
-    //Task 6
+    //Task 1.6
     public static void ctoa(char symbol) {
         System.out.println("'" + symbol + "' -> " + (int) symbol);
     }
 
-    //Task 7
+    //Task 1.7
     public static void addUpTo(int number) {
         int progr = 0;
         for (int i = 1; i <= number; i++) progr = progr + i;
         System.out.println("number = " + number + ", progression = " + progr);
     }
-
+    //Task 1.8
     public static void nextEdge(int Edge1, int Edge2)
     {
         System.out.println("Edge 1 = "+Edge1+", Edge 2 = "+Edge2+", Edge 3 ="+(Edge1+Edge2-1));
     }
-
+    //Task 1.9
     public static void sumOfCubes(int[] Array1)
     {
 
@@ -58,7 +58,7 @@ public class FirstClass {
         for(int i = 0; i < length; i++) sum = sum+Array1[i]*Array1[i]*Array1[i];
         System.out.println(sum);
     }
-
+    //Task 1.10
     public static void abcmath(int a, int b, int c)
     {
         int sum = a;
