@@ -81,4 +81,37 @@ public class SecondClass {
             } else if(i >= charnum.length-1) System.out.println("number "+strnum+" is  valid.");
         }
     }
+    //Task 2.8
+    public static void isStrangePair(String str1, String str2)
+    {
+        if (((str1 == "")&&(str1 ==""))||( (str1 == " ")&&(str2 == " ") ))
+        {
+            System.out.println(str1+" "+str2+" -> "+true);
+            return;
+        }
+        char[] chastr1 = str1.toCharArray();
+        char[] chastr2 = str2.toCharArray();
+        if ( ( ( chastr1[0] == chastr2[chastr2.length-1] )&&( chastr1[chastr1.length-1] == chastr2[0] ) )/*||((str1 == " ")&&(str2 ==  " ")   )*/ )
+            System.out.println(str1+" "+str2+" -> "+true);
+        else System.out.println(str1+" "+str2+" -> "+false);
+    }
+    //Task 2.9
+    public static void isPrefix(String word, String prefix)
+    {
+        char[] wordchar = word.toCharArray();
+        char[] prefixchar = prefix.toCharArray();
+        String newstrpref = "";
+        String newstrpref1 = "";
+        for(int i = 0; i<prefixchar.length; i++)
+        {
+            newstrpref = newstrpref + Character.toString(wordchar[i]);
+            newstrpref1 = newstrpref1 + Character.toString(prefixchar[i]);
+        }
+        if ((prefix == "")||(prefix == " "))
+        {
+            System.out.println(word+" "+prefix+" -> "+false);
+            return;
+        }
+        System.out.println(word+" "+prefix+" -> "+(newstrpref.equals(newstrpref1)));
+    }
 }

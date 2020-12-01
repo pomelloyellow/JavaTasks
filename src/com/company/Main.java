@@ -96,5 +96,18 @@ public class Main {
 	SecondClass.isValid("123456");
 	SecondClass.isValid("12e56");
 	SecondClass.isValid("1 456");
+		//Task 2.8
+		System.out.println("----Task 2.8---");
+	SecondClass.isStrangePair("ratio","orator");
+	SecondClass.isStrangePair("bush","hubris");
+	SecondClass.isStrangePair(" "," ");
+	SecondClass.isStrangePair("","");
+
+		//Task 2.8
+		System.out.println("----Task 2.9---");
+	SecondClass.isPrefix("automation", "auto");
+	SecondClass.isPrefix("automation", "");
+	SecondClass.isPrefix("automation", " ");
+	SecondClass.isPrefix("automation", "autom");
 	}
 }
