@@ -113,7 +113,7 @@ public class Main {
 	SecondClass.isSuffix("vocation", "logy");
 
 		//Task 2.10
-		System.out.println("----Task 2.10---");
+		System.out.println("----Task 2.10--");
 	SecondClass.boxSeq(0);
 	SecondClass.boxSeq(1);
 	SecondClass.boxSeq(2);
@@ -121,5 +121,11 @@ public class Main {
 	SecondClass.boxSeq(4);
 	SecondClass.boxSeq(5);
 	SecondClass.boxSeq(6);
+
+		//Task 3.1
+		System.out.println("----Task 3.1---");
+	ThirdClass.solutions(1,0,-1);
+	ThirdClass.solutions(1,0,0);
+	ThirdClass.solutions(1,0,1);
 	}
 }
