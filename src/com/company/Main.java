@@ -103,11 +103,23 @@ public class Main {
 	SecondClass.isStrangePair(" "," ");
 	SecondClass.isStrangePair("","");
 
-		//Task 2.8
+		//Task 2.9
 		System.out.println("----Task 2.9---");
 	SecondClass.isPrefix("automation", "auto");
 	SecondClass.isPrefix("automation", "");
 	SecondClass.isPrefix("automation", " ");
 	SecondClass.isPrefix("automation", "autom");
+	SecondClass.isSuffix("arachnophobia","phobia");
+	SecondClass.isSuffix("vocation", "logy");
+
+		//Task 2.10
+		System.out.println("----Task 2.10---");
+	SecondClass.boxSeq(0);
+	SecondClass.boxSeq(1);
+	SecondClass.boxSeq(2);
+	SecondClass.boxSeq(3);
+	SecondClass.boxSeq(4);
+	SecondClass.boxSeq(5);
+	SecondClass.boxSeq(6);
 	}
 }
