@@ -102,7 +102,6 @@ public class Main {
 	SecondClass.isStrangePair("bush","hubris");
 	SecondClass.isStrangePair(" "," ");
 	SecondClass.isStrangePair("","");
-
 		//Task 2.9
 		System.out.println("----Task 2.9---");
 	SecondClass.isPrefix("automation", "auto");
@@ -111,7 +110,6 @@ public class Main {
 	SecondClass.isPrefix("automation", "autom");
 	SecondClass.isSuffix("arachnophobia","phobia");
 	SecondClass.isSuffix("vocation", "logy");
-
 		//Task 2.10
 		System.out.println("----Task 2.10--");
 	SecondClass.boxSeq(0);
@@ -121,11 +119,39 @@ public class Main {
 	SecondClass.boxSeq(4);
 	SecondClass.boxSeq(5);
 	SecondClass.boxSeq(6);
-
 		//Task 3.1
 		System.out.println("----Task 3.1---");
 	ThirdClass.solutions(1,0,-1);
 	ThirdClass.solutions(1,0,0);
 	ThirdClass.solutions(1,0,1);
+		//Task 3.2
+		System.out.println("----Task 3.2---");
+	ThirdClass.findZip("all zip files are zipped");
+	ThirdClass.findZip("all zip files are compressed");
+		//Task 3.3
+		System.out.println("----Task 3.3---");
+	ThirdClass.checkPerfect(28);
+	ThirdClass.checkPerfect(6);
+	ThirdClass.checkPerfect(496);
+	ThirdClass.checkPerfect(12);
+	ThirdClass.checkPerfect(97);
+		//Task 3.4
+		System.out.println("----Task 3.4---");
+	ThirdClass.flipEndChars("Cat, dog, and mouse.");
+	ThirdClass.flipEndChars("ada");
+	ThirdClass.flipEndChars("adA");
+	ThirdClass.flipEndChars("z");
+		//Task 3.5
+		System.out.println("----Task 3.5---");
+	ThirdClass.isValidHexCode("#CD5C5C");
+	ThirdClass.isValidHexCode("CD5C5C");
+	ThirdClass.isValidHexCode("#CD5C5Cc");
+	ThirdClass.isValidHexCode("#CD5z5C");
+	ThirdClass.isValidHexCode("#CD5&5C");
+		//Task 3.6
+		System.out.println("----Task 3.6---");
+	ThirdClass.same(new int[] {3, 2, 3, 3, 2, 1}, new int[] {1, 2, 3});
+	ThirdClass.same(new int[] {9,8,7,6}, new int[] {4,4,3,1});
+	ThirdClass.same(new int[] {2}, new int[] {3, 3, 3, 3, 3});
 	}
 }
