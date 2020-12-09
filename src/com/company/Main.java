@@ -153,5 +153,12 @@ public class Main {
 	ThirdClass.same(new int[] {3, 2, 3, 3, 2, 1}, new int[] {1, 2, 3});
 	ThirdClass.same(new int[] {9,8,7,6}, new int[] {4,4,3,1});
 	ThirdClass.same(new int[] {2}, new int[] {3, 3, 3, 3, 3});
+
+		//Task 3.7
+		System.out.println("----Task 3.7---");
+	ThirdClass.isKaprekar(3);
+	ThirdClass.isKaprekar(1);
+	ThirdClass.isKaprekar(5);
+	ThirdClass.isKaprekar(297);
 	}
 }

@@ -121,5 +121,23 @@ public class ThirdClass {
         System.out.println(Arrays.toString(arr1)+" - "+result1+" unical symbol, "+Arrays.toString(arr2)+" - "+result2
                 +" unical symbol -> "+tf);
     }
+    //Task 3.7
+    public static void isKaprekar(Integer num)
+    {
+        boolean boolres;
+        boolean boolres1;
+        Integer numsq = num*num;
+        String strnumsq = numsq.toString();
+        if (strnumsq.length() == 1)
+        {
+
+            System.out.println(num+" -> "+numsq+" -> "+0+" + "+numsq+" = "+numsq+" -> "+numsq.equals(num));
+            return;
+        }
+        String strnumsq1 = strnumsq.substring(0,(strnumsq.length())/2);
+        String strnumsq2 = strnumsq.substring((strnumsq.length())/2);
+        Integer result = Integer.parseInt(strnumsq1) + Integer.parseInt(strnumsq2 );
+        System.out.println(num+" -> "+numsq+" -> "+strnumsq1+" + "+strnumsq2+" = "+result+" -> "+result.equals(num));
+    }
 
 }
