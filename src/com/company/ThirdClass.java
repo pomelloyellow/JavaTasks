@@ -124,8 +124,7 @@ public class ThirdClass {
     //Task 3.7
     public static void isKaprekar(Integer num)
     {
-        boolean boolres;
-        boolean boolres1;
+
         Integer numsq = num*num;
         String strnumsq = numsq.toString();
         if (strnumsq.length() == 1)
