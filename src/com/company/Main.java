@@ -153,12 +153,26 @@ public class Main {
 	ThirdClass.same(new int[] {3, 2, 3, 3, 2, 1}, new int[] {1, 2, 3});
 	ThirdClass.same(new int[] {9,8,7,6}, new int[] {4,4,3,1});
 	ThirdClass.same(new int[] {2}, new int[] {3, 3, 3, 3, 3});
-
 		//Task 3.7
 		System.out.println("----Task 3.7---");
 	ThirdClass.isKaprekar(3);
 	ThirdClass.isKaprekar(1);
 	ThirdClass.isKaprekar(5);
 	ThirdClass.isKaprekar(297);
+		//Task 3.8
+		System.out.println("----Task 3.8---");
+	ThirdClass.longestZero("111000101");
+	ThirdClass.longestZero("01100001011000");
+	ThirdClass.longestZero("11111");
+		//Task 3.9
+		System.out.println("----Task 3.9---");
+	System.out.println(ThirdClass.nextPrime(12));
+	System.out.println(ThirdClass.nextPrime(22));
+	System.out.println(ThirdClass.nextPrime(30));
+		//Task 3.10
+		System.out.println("----Task 3.10---");
+	ThirdClass.rightTriangle(3,4,5);
+	ThirdClass.rightTriangle(145,105,100);
+	ThirdClass.rightTriangle(70,130,110);
 	}
 }
