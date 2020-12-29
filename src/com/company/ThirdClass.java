@@ -155,12 +155,14 @@ public class ThirdClass {
         for (int j = 0; j < longestzero; j++) strzero = strzero+ "0";
         System.out.println(num+" -> "+strzero);
     }
+
     //Task 3.9
     public static int nextPrime(int num)
     {
         for (int i = 2; i<num; i++) if (num % i == 0) return nextPrime(num+1);
         return num;
     }
+
     //Task 3.10
     public static void rightTriangle(int a, int b, int c)
     {

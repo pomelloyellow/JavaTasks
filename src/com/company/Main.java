@@ -174,5 +174,49 @@ public class Main {
 	ThirdClass.rightTriangle(3,4,5);
 	ThirdClass.rightTriangle(145,105,100);
 	ThirdClass.rightTriangle(70,130,110);
+
+		//Task 4.1
+		System.out.println("----Task 4.1---");
+	System.out.println(FourthClass.BessiEssay(10, 7, "hello my name is Bessie and this is my essay"));
+		//Task 4.2
+		System.out.println("----Task 4.2---");
+	System.out.println(FourthClass.split("((()))(())()()(()())"));
+		//Task 4.3.1
+		System.out.println("----Task 4.3.1---");
+	System.out.println(FourthClass.toCamelCase("hello_edabit"));
+		//Task 4.3.2
+		System.out.println("----Task 4.3.2---");
+	System.out.println(FourthClass.toSnakeCase("helloEdabit"));
+		//Task 4.4
+		System.out.println("----Task 4.4---");
+	System.out.println(FourthClass.overTime(new double[] {9, 17, 30, 1.5}));
+	System.out.println(FourthClass.overTime(new double[] {16, 18, 30, 1.8}));
+
+		//Task 4.5
+		System.out.println("----Task 4.5---");
+	System.out.println(FourthClass.BMI("205 pounds", "73 inches"));
+	System.out.println(FourthClass.BMI("55 kilos", "1.65 meters"));
+	System.out.println(FourthClass.BMI("154 pounds", "2 meters"));
+
+		//Task 4.6
+		System.out.println("----Task 4.6---");
+	System.out.println(FourthClass.bugger(39));
+		//Task 4.7
+		System.out.println("----Task 4.7---");
+	System.out.println(FourthClass.toStarShorthand("abbccc"));
+	System.out.println(FourthClass.toStarShorthand("77777geff"));
+		//Task 4.8
+		System.out.println("----Task 4.8---");
+	System.out.println(FourthClass.doesRhyme("Sam I am!", "Green eggs and ham."));
+	System.out.println(FourthClass.doesRhyme("and frequently do?", "you gotta move."));
+		//Task 4.9
+		System.out.println("----Task 4.9---");
+	System.out.println(FourthClass.trouble(451999277,72289977));
+		//Task 4.10
+		System.out.println("----Task 4.10---");
+	System.out.println(FourthClass.countUniqueBooks("AZYWABBCATTTA", 'A'));
 	}
+
+
+
 }
