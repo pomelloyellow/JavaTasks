@@ -215,6 +215,7 @@ public class Main {
 		//Task 4.10
 		System.out.println("----Task 4.10---");
 	System.out.println(FourthClass.countUniqueBooks("AZYWABBCATTTA", 'A'));
+
 	}
 
 
